@@ -11,7 +11,7 @@
     <!--代表: Environment.getExternalStorageDirectory()-->
     <external-path
         name="files_root"
-        path="Android/data/com.white.learner/" />
+        path="Android/data/com.luck.learner/" />
     <external-path
         name="external_storage_root"
         path="." />

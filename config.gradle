@@ -1,7 +1,7 @@
 ext {
     // app 相关版本控制
     versions = [
-            applicationId   : "com.white.luckcloud",
+            applicationId   : "com.luck.luckcloud",
             minSdkVersion   : 19,
             targetSdkVersion: 28,
             compileVersion  : 28,
