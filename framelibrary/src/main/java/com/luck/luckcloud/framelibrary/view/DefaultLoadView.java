@@ -1,6 +1,7 @@
 package com.luck.luckcloud.framelibrary.view;
 
 import android.animation.ObjectAnimator;
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,6 +10,7 @@ import android.view.animation.LinearInterpolator;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.luck.luckcloud.baselibrary.common.Constants;
 import com.luck.luckcloud.baselibrary.view.recyclerView.pullToRefresh.LoadViewCreator;
 import com.luck.luckcloud.framelibrary.R;
 
@@ -113,5 +115,11 @@ public class DefaultLoadView extends LoadViewCreator {
             mAnimator.cancel();
             mLoadIcon.clearAnimation();
         }
+    }
+
+    //设置黑色字体
+    @SuppressLint("ResourceAsColor")
+    public void setBlackStyle() {
+        mLoadText.setTextColor(R.color.color_black);
     }
 }

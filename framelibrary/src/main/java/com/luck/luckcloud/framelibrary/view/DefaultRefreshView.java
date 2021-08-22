@@ -1,6 +1,7 @@
 package com.luck.luckcloud.framelibrary.view;
 
 import android.animation.ObjectAnimator;
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -88,5 +89,11 @@ public class DefaultRefreshView extends RefreshViewCreator {
             mAnimator.cancel();
             mRefreshIcon.clearAnimation();
         }
+    }
+
+    //设置黑色字体
+    @SuppressLint("ResourceAsColor")
+    public void setBlackStyle() {
+        mRefreshDesc.setTextColor(R.color.color_black);
     }
 }
