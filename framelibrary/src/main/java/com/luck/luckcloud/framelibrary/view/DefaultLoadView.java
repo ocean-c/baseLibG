@@ -32,12 +32,17 @@ public class DefaultLoadView extends LoadViewCreator {
     private boolean mShowNoData;
     // 加载的动画
     private ObjectAnimator mAnimator;
+    // 黑色字体
+    private boolean mShowBlackStyle = false;
 
     @Override
     public View getLoadView(Context context, ViewGroup parent) {
         mRootView = LayoutInflater.from(context).inflate(R.layout.view_load_footer, parent, false);
         mLoadIcon = mRootView.findViewById(R.id.tv_load_icon);
         mLoadText = mRootView.findViewById(R.id.tv_load_text);
+        if (mShowBlackStyle){
+            mLoadText.setTextColor(context.getResources().getColor(R.color.color_black));
+        }
         mLoadIcon.setLayerType(View.LAYER_TYPE_HARDWARE, null);
         mAnimator = ObjectAnimator.ofFloat(mLoadIcon, "rotation", 0, 359f);
         mAnimator.setInterpolator(new LinearInterpolator());
@@ -118,8 +123,7 @@ public class DefaultLoadView extends LoadViewCreator {
     }
 
     //设置黑色字体
-    @SuppressLint("ResourceAsColor")
     public void setBlackStyle() {
-        mLoadText.setTextColor(R.color.color_black);
+        mShowBlackStyle = true;
     }
 }

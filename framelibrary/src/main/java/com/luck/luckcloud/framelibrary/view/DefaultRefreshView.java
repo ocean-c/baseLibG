@@ -30,7 +30,8 @@ public class DefaultRefreshView extends RefreshViewCreator {
     private TextView mRefreshDesc;
     // 加载的动画
     private ObjectAnimator mAnimator;
-
+    // 黑色字体
+    private boolean mShowBlackStyle = false;
 
     protected int getLayoutId() {
         return R.layout.view_refresh_header;
@@ -41,6 +42,9 @@ public class DefaultRefreshView extends RefreshViewCreator {
         View refreshView = LayoutInflater.from(context).inflate(getLayoutId(), parent, false);
         mRefreshIcon = refreshView.findViewById(R.id.iv_refresh_icon);
         mRefreshDesc = refreshView.findViewById(R.id.tv_refresh_desc);
+        if (mShowBlackStyle){
+            mRefreshDesc.setTextColor(context.getResources().getColor(R.color.color_black));
+        }
         mRefreshIcon.setLayerType(View.LAYER_TYPE_HARDWARE, null);
         mAnimator = ObjectAnimator.ofFloat(mRefreshIcon, "rotation", 0, 359f);
         mAnimator.setInterpolator(new LinearInterpolator());
@@ -92,8 +96,7 @@ public class DefaultRefreshView extends RefreshViewCreator {
     }
 
     //设置黑色字体
-    @SuppressLint("ResourceAsColor")
     public void setBlackStyle() {
-        mRefreshDesc.setTextColor(R.color.color_black);
+        mShowBlackStyle = true;
     }
 }
