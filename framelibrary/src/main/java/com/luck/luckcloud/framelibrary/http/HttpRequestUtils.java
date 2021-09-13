@@ -41,119 +41,119 @@ public class HttpRequestUtils {
     }
 
     // 发送短信验证码接口
-    private static final String SEND_SMS = getBaseAddress() + "/user/sendPhoneVerifyCode.json";
+    private static final String SEND_SMS = "/user/sendPhoneVerifyCode.json";
     // 注册接口
-    private static final String REGISTER = getBaseAddress() + "/register";
+    private static final String REGISTER = "/register";
     // 密保问题接口
-    private static final String REGISTER_QUESTIONS = getBaseAddress() + "/register/questions";
+    private static final String REGISTER_QUESTIONS = "/register/questions";
     // 获取验证码接口
-    private static final String REGISTER_CODE = getBaseAddress() + "/captcha/generate";
+    private static final String REGISTER_CODE = "/captcha/generate";
     // 获取注册协议
-    private static final String REGISTER_AGREEMENT = getBaseAddress() + "/register/agreement";
+    private static final String REGISTER_AGREEMENT = "/register/agreement";
     // 修改密码
-    private static final String PASSWORD_MODIFY = getBaseAddress() + "/security/password/modify";
+    private static final String PASSWORD_MODIFY = "/security/password/modify";
     // 修改密保
-    private static final String ANSWER_MODIFY = getBaseAddress() + "/security/answer/modify";
+    private static final String ANSWER_MODIFY = "/security/answer/modify";
 
 
     // 获取Banner接口
-    private static final String MAIN_BANNER_INFO = getBaseAddress() + "/home/advs";
+    private static final String MAIN_BANNER_INFO = "/home/advs";
     // 获取推荐网站接口
-    private static final String MAIN_WEB_INFO = getBaseAddress() + "/home/sites";
+    private static final String MAIN_WEB_INFO = "/home/sites";
     // 获取公告列表接口
-    private static final String MAIN_NOTICES_LIST = getBaseAddress() + "/home/notices";
+    private static final String MAIN_NOTICES_LIST = "/home/notices";
     // 获取资讯列表接口
-    private static final String MAIN_INFOS = getBaseAddress() + "/home/infos";
+    private static final String MAIN_INFOS = "/home/infos";
     // 获取首页交易对接口
-    private static final String MAIN_SYMBOLS = getBaseAddress() + "/home/symbols";
+    private static final String MAIN_SYMBOLS = "/home/symbols";
     // 获取首页交易对 行情
-    private static final String MAIN_MARKETS = getBaseAddress() + "/home/markets";
+    private static final String MAIN_MARKETS = "/home/markets";
 
     // 获取量化列表
-    private static final String QUANTI_GROUPS = getBaseAddress() + "/quanti/groups";
+    private static final String QUANTI_GROUPS = "/quanti/groups";
     // 获取策略类型
-    private static final String STRATEGY_TYPES = getBaseAddress() + "/quanti/strategy/types";
+    private static final String STRATEGY_TYPES = "/quanti/strategy/types";
     // 获取量化对应的币列表
-    private static final String QUANTI_GROUPS_COINS = getBaseAddress() + "/quanti/group/symbols";
+    private static final String QUANTI_GROUPS_COINS = "/quanti/group/symbols";
     //开始量化
-    private static final String QUANTI_MAKE = getBaseAddress() + "/quanti/make";
+    private static final String QUANTI_MAKE = "/quanti/make";
     // 获取量化模式
-    private static final String START_LIANG_HUA = getBaseAddress() + "/quanti/mode/apply";
+    private static final String START_LIANG_HUA = "/quanti/mode/apply";
 
     // 交易账户余额
-    private static final String BALANCE_SPOT_USDT = getBaseAddress() + "/exch/balance/spot/usdt";
+    private static final String BALANCE_SPOT_USDT = "/exch/balance/spot/usdt";
     // 各个策略下的交易币种
-    private static final String TRADE_STRATEGYS = getBaseAddress() + "/trade/user/strategys";
+    private static final String TRADE_STRATEGYS = "/trade/user/strategys";
     // 单个交易币种的详情
-    private static final String TRADE_STRATEGY_LOOP = getBaseAddress() + "/trade/strategy/loop";
+    private static final String TRADE_STRATEGY_LOOP = "/trade/strategy/loop";
     // 变更执行方式
-    private static final String TRADE_LOOPWAY_CHANGE = getBaseAddress() + "/trade/loop/way/change";
+    private static final String TRADE_LOOPWAY_CHANGE = "/trade/loop/way/change";
 
     // 交易记录列表
-    private static final String TRADE_RECORDS = getBaseAddress() + "/trade/records";
+    private static final String TRADE_RECORDS = "/trade/records";
     // 交易汇总列表
-    private static final String TRADE_INCOME_SUMMARY = getBaseAddress() + "/trade/income/summary";
+    private static final String TRADE_INCOME_SUMMARY = "/trade/income/summary";
     // 交易汇总明细列表
-    private static final String TRADE_INCOME_RECORDS = getBaseAddress() + "/trade/income/records";
+    private static final String TRADE_INCOME_RECORDS = "/trade/income/records";
 
     // 军饷汇总列表
-    private static final String COMM_SUMMARYS = getBaseAddress() + "/comm/summarys";
+    private static final String COMM_SUMMARYS = "/comm/summarys";
     // 军饷汇总明细列表
-    private static final String COMM_RECORDS = getBaseAddress() + "/comm/records";
+    private static final String COMM_RECORDS = "/comm/records";
 
     //明细接口
-    private static final String ACCOUNT_FLOWS = getBaseAddress() + "/acc/account/flows";
+    private static final String ACCOUNT_FLOWS = "/acc/account/flows";
     //明细分类接口
-    private static final String ACCOUNT_FLOW_CATES = getBaseAddress() + "/acc/account/flow/cates";
+    private static final String ACCOUNT_FLOW_CATES = "/acc/account/flow/cates";
 
     // 提现手续费
-    private static final String USDT_WITHDRAW_FEES = getBaseAddress() + "/acc/usdt/withdraw/fees";
+    private static final String USDT_WITHDRAW_FEES = "/acc/usdt/withdraw/fees";
     // 提现
-    private static final String USDT_WITHDRAW = getBaseAddress() + "/acc/usdt/withdraw";
+    private static final String USDT_WITHDRAW = "/acc/usdt/withdraw";
     // 转币
-    private static final String COMM_TRANSFER = getBaseAddress() + "/acc/comm/transfer";
+    private static final String COMM_TRANSFER = "/acc/comm/transfer";
     // 转换
-    private static final String COMM_TRANSFORM = getBaseAddress() + "/acc/comm/transform";
+    private static final String COMM_TRANSFORM = "/acc/comm/transform";
     // 充值LC
-    private static final String LC_RECHARGE = getBaseAddress() + "/acc/lc/recharge";
+    private static final String LC_RECHARGE = "/acc/lc/recharge";
 
     //账户余额查询
-    private static final String ACC_ACCOUNTS = getBaseAddress() + "/acc/accounts";
+    private static final String ACC_ACCOUNTS = "/acc/accounts";
     //获取用户trc20usdt 充币地址
-    private static final String ACC_TRC20_USDT = getBaseAddress() + "/acc/trc20/usdt";
+    private static final String ACC_TRC20_USDT = "/acc/trc20/usdt";
     //同步trc20usdt
-    private static final String ACC_TRC20_USDT_SYNC = getBaseAddress() + "/acc/trc20/usdt/sync";
+    private static final String ACC_TRC20_USDT_SYNC = "/acc/trc20/usdt/sync";
     //获取用户波场trx账户
-    private static final String ACC_TRX = getBaseAddress() + "/acc/trx";
+    private static final String ACC_TRX = "/acc/trx";
 
 
     // 获取API列表
-    private static final String EXCH_AUTHZS = getBaseAddress() + "/exch/authzs";
+    private static final String EXCH_AUTHZS = "/exch/authzs";
     // 获取API教程
-    private static final String AUTHZ_TUTORIAL = getBaseAddress() + "/exch/authz/tutorial";
+    private static final String AUTHZ_TUTORIAL = "/exch/authz/tutorial";
     // 添加API授权
-    private static final String AUTHZ_ADD = getBaseAddress() + "/exch/authz/add";
+    private static final String AUTHZ_ADD = "/exch/authz/add";
     // 删除API授权
-    private static final String AUTHZ_DELETE = getBaseAddress() + "/exch/authz/delete";
+    private static final String AUTHZ_DELETE = "/exch/authz/delete";
 
 
     //联系客服
-    private static final String CONTACT_SERVICE = getBaseAddress() + "/system/base/settings";
+    private static final String CONTACT_SERVICE = "/system/base/settings";
     //更新信息
-    private static final String UPDATE_INFO = getBaseAddress() + "/system/app/latest";
+    private static final String UPDATE_INFO = "/system/app/latest";
     //交易日志
-    private static final String TRADE_LOGS = getBaseAddress() + "/trade/logs";
+    private static final String TRADE_LOGS = "/trade/logs";
 
 
     // 登录接口
-    private static final String LOGIN = getBaseAddress() + "/login";
+    private static final String LOGIN = "/login";
     // 获取个人信息接口
-    private static final String GET_USER_INFO = getBaseAddress() + "/user/findPersonal.json";
+    private static final String GET_USER_INFO = "/user/findPersonal.json";
 
     // 头像图片上传接口
-    private static final String UPLOAD_IMAGE = getBaseAddress() + "/user/faceUpload.json";
+    private static final String UPLOAD_IMAGE = "/user/faceUpload.json";
     // 日志文件上传接口
-    private static final String UPLOAD_FILE = getBaseAddress() + "/log/logUpload.json";
+    private static final String UPLOAD_FILE = "/log/logUpload.json";
 
     // 退出登录接口
     private static final String LOGOUT = getBaseAddress() + "/logout";
@@ -200,7 +200,7 @@ public class HttpRequestUtils {
                                     String inviteCode, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .post()
-                .url(REGISTER)
+                .url(getBaseAddress() + REGISTER)
                 .addParams("username", username)
                 .addParams("registerSource", 1)
                 .addParams("firstQuestionId", firstQuestionId)
@@ -226,7 +226,7 @@ public class HttpRequestUtils {
     public static <T> void registerQuestion(Context context, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .get()
-                .url(REGISTER_QUESTIONS)
+                .url(getBaseAddress() + REGISTER_QUESTIONS)
                 .execute(callback);
     }
 
@@ -240,7 +240,7 @@ public class HttpRequestUtils {
     public static <T> void registerCode(Context context, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .get()
-                .url(REGISTER_CODE)
+                .url(getBaseAddress() + REGISTER_CODE)
                 .execute(callback);
     }
 
@@ -254,7 +254,7 @@ public class HttpRequestUtils {
     public static <T> void registerText(Context context, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .get()
-                .url(REGISTER_AGREEMENT)
+                .url(getBaseAddress() + REGISTER_AGREEMENT)
                 .execute(callback);
     }
 
@@ -269,7 +269,7 @@ public class HttpRequestUtils {
     public static <T> void login(Context context, String name, String password, String codeId, String codeText, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .post()
-                .url(LOGIN)
+                .url(getBaseAddress() + LOGIN)
                 .addParams("username", name)
                 .addParams("password", password)
                 .addParams("captchaId", codeId)
@@ -287,7 +287,7 @@ public class HttpRequestUtils {
     public static <T> void getMainBannerInfo(Context context, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .get()
-                .url(MAIN_BANNER_INFO)
+                .url(getBaseAddress() + MAIN_BANNER_INFO)
                 .execute(callback);
     }
 
@@ -301,7 +301,7 @@ public class HttpRequestUtils {
     public static <T> void getMainWebList(Context context, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .get()
-                .url(MAIN_WEB_INFO)
+                .url(getBaseAddress() + MAIN_WEB_INFO)
                 .execute(callback);
     }
 
@@ -317,7 +317,7 @@ public class HttpRequestUtils {
     public static <T> void sendSMS(Context context, String phone, String type, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .postString()
-                .url(SEND_SMS)
+                .url(getBaseAddress() + SEND_SMS)
                 .addParams("phone", phone)
                 .addParams("type", type)
                 .execute(callback);
@@ -334,7 +334,7 @@ public class HttpRequestUtils {
     public static <T> void getUserInfo(Context context, String otherUserId, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .postString()
-                .url(GET_USER_INFO)
+                .url(getBaseAddress() + GET_USER_INFO)
                 .addParams("otherUserId", otherUserId)
                 .execute(callback);
     }
@@ -351,7 +351,7 @@ public class HttpRequestUtils {
     public static <T> void uploadImage(Context context, String imageStr, String token, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .post()
-                .url(UPLOAD_IMAGE)
+                .url(getBaseAddress() + UPLOAD_IMAGE)
                 .addHeader(DefaultHttpCallback.KEY_TOKEN, token)
                 .addParams("faceImage", imageStr)
                 .execute(callback);
@@ -368,7 +368,7 @@ public class HttpRequestUtils {
     public static <T> void uploadFile(Context context, String fileStr, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .postString()
-                .url(UPLOAD_FILE)
+                .url(getBaseAddress() + UPLOAD_FILE)
                 .addParams("logFile", fileStr)
                 .execute(callback);
     }
@@ -388,7 +388,7 @@ public class HttpRequestUtils {
         }
         HttpUtils.with(context)
                 .get()
-                .url(LOGOUT)
+                .url(getBaseAddress() + LOGOUT)
                 .addParams("uid", userId)
                 .execute(callback);
     }
@@ -408,7 +408,7 @@ public class HttpRequestUtils {
     public static <T> void getRecommendList(Context context, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .get()
-                .url(MAIN_SYMBOLS)
+                .url(getBaseAddress() + MAIN_SYMBOLS)
                 .execute(callback);
     }
 
@@ -423,7 +423,7 @@ public class HttpRequestUtils {
         HttpUtils.with(context)
                 .get()
                 .addParams("symbol", symbol)
-                .url(MAIN_MARKETS)
+                .url(getBaseAddress() + MAIN_MARKETS)
                 .execute(callback);
     }
 
@@ -437,7 +437,7 @@ public class HttpRequestUtils {
     public static <T> void getMainNoticeList(Context context, int pageNo, int pageSize, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .get()
-                .url(MAIN_NOTICES_LIST)
+                .url(getBaseAddress() + MAIN_NOTICES_LIST)
                 .execute(callback);
     }
 
@@ -457,7 +457,7 @@ public class HttpRequestUtils {
     public static <T> void passwordModify(Context context, String uid, int type, String questionCode, String question, String password, String password1, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .post()
-                .url(PASSWORD_MODIFY)
+                .url(getBaseAddress() + PASSWORD_MODIFY)
                 .addParams("uid", uid)
                 .addParams("type", type)
                 .addParams("questionId", questionCode)
@@ -482,7 +482,7 @@ public class HttpRequestUtils {
     public static <T> void secretModify(Context context, String uid, String oldQuestionId, String oldQuestionValue, String newQuestionId, String newQuestionValue, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .post()
-                .url(ANSWER_MODIFY)
+                .url(getBaseAddress() + ANSWER_MODIFY)
                 .addParams("uid", uid)
                 .addParams("oldQuestionId", oldQuestionId)
                 .addParams("oldQuestionValue", oldQuestionValue)
@@ -502,7 +502,7 @@ public class HttpRequestUtils {
     public static <T> void getApiTutorial(Context context, String uid, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .get()
-                .url(AUTHZ_TUTORIAL)
+                .url(getBaseAddress() + AUTHZ_TUTORIAL)
                 .addParams("uid", uid)
                 .execute(callback);
     }
@@ -524,7 +524,7 @@ public class HttpRequestUtils {
     public static <T> void apiAuthzAdd(Context context, String uid, String exchCode, String authzType, String accType, String accessKey, String secretKey, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .post()
-                .url(AUTHZ_ADD)
+                .url(getBaseAddress() + AUTHZ_ADD)
                 .addParams("uid", uid)
                 .addParams("exchCode", exchCode)
                 .addParams("authzType", authzType)
@@ -546,7 +546,7 @@ public class HttpRequestUtils {
     public static <T> void deleteApiAuth(Context context, String uid, String id, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .post()
-                .url(AUTHZ_DELETE)
+                .url(getBaseAddress() + AUTHZ_DELETE)
                 .addParams("uid", uid)
                 .addParams("id", id)
                 .execute(callback);
@@ -563,7 +563,7 @@ public class HttpRequestUtils {
     public static <T> void contactService(Context context, String uid, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .get()
-                .url(CONTACT_SERVICE)
+                .url(getBaseAddress() + CONTACT_SERVICE)
                 .addParams("uid", uid)
                 .execute(callback);
     }
@@ -579,7 +579,7 @@ public class HttpRequestUtils {
     public static <T> void getUpdateInfo(Context context, String uid, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .get()
-                .url(UPDATE_INFO)
+                .url(getBaseAddress() + UPDATE_INFO)
                 .addParams("uid", uid)
                 .execute(callback);
     }
@@ -595,7 +595,7 @@ public class HttpRequestUtils {
     public static <T> void quantiGroups(Context context, String uid, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .get()
-                .url(QUANTI_GROUPS)
+                .url(getBaseAddress() + QUANTI_GROUPS)
                 .addParams("uid", uid)
                 .execute(callback);
     }
@@ -611,7 +611,7 @@ public class HttpRequestUtils {
     public static <T> void strategyTypes(Context context, String uid, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .get()
-                .url(STRATEGY_TYPES)
+                .url(getBaseAddress() + STRATEGY_TYPES)
                 .addParams("uid", uid)
                 .execute(callback);
     }
@@ -628,7 +628,7 @@ public class HttpRequestUtils {
     public static <T> void lianghuaCoins(Context context, String uid, String gid, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .get()
-                .url(QUANTI_GROUPS_COINS)
+                .url(getBaseAddress() + QUANTI_GROUPS_COINS)
                 .addParams("uid", uid)
                 .addParams("gid", gid)
                 .execute(callback);
@@ -647,7 +647,7 @@ public class HttpRequestUtils {
     public static <T> void startLiangHua(Context context, String uid, String firstQuoteAmount, String data, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .post()
-                .url(QUANTI_MAKE)
+                .url(getBaseAddress() + QUANTI_MAKE)
                 .addParams("uid", uid)
                 .addParams("firstQuoteAmount", firstQuoteAmount)
                 .addParams("data", data)
@@ -668,7 +668,7 @@ public class HttpRequestUtils {
     public static <T> void startLiangHua(Context context, String uid, String firstQuoteAmount, String maxPosQuoteAmount, String typeNo, String data, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .post()
-                .url(QUANTI_MAKE)
+                .url(getBaseAddress() + QUANTI_MAKE)
                 .addParams("uid", uid)
                 .addParams("typeNo", typeNo)
                 .addParams("firstQuoteAmount", firstQuoteAmount)
@@ -691,7 +691,7 @@ public class HttpRequestUtils {
     public static <T> void startLiangHuaCoin(Context context, String uid, String firstQuoteAmount, String maxPosQuoteAmount, String typeNo, String symbol, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .post()
-                .url(QUANTI_MAKE)
+                .url(getBaseAddress() + QUANTI_MAKE)
                 .addParams("uid", uid)
                 .addParams("typeNo", typeNo)
                 .addParams("firstQuoteAmount", firstQuoteAmount)
@@ -712,7 +712,7 @@ public class HttpRequestUtils {
     public static <T> void liangHuaMode(Context context, String uid, String mode, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .get()
-                .url(START_LIANG_HUA)
+                .url(getBaseAddress() + START_LIANG_HUA)
                 .addParams("uid", uid)
                 .addParams("mode", mode)
                 .execute(callback);
@@ -732,7 +732,7 @@ public class HttpRequestUtils {
     public static <T> void balanceSpotUsdt(Context context, String uid, String exchCode, String authzType, String accType, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .get()
-                .url(BALANCE_SPOT_USDT)
+                .url(getBaseAddress() + BALANCE_SPOT_USDT)
                 .addParams("uid", uid)
                 .addParams("exchCode", exchCode)
                 .addParams("authzType", authzType)
@@ -753,7 +753,7 @@ public class HttpRequestUtils {
     public static <T> void tradeStrategys(Context context, String uid, String symbol, int loopWay, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .get()
-                .url(TRADE_STRATEGYS)
+                .url(getBaseAddress() + TRADE_STRATEGYS)
                 .addParams("uid", uid)
                 .addParams("symbol", symbol)
                 .addParams("loopWay", loopWay)
@@ -772,7 +772,7 @@ public class HttpRequestUtils {
     public static <T> void tradeStrategyLoop(Context context, String uid, String straId, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .get()
-                .url(TRADE_STRATEGY_LOOP)
+                .url(getBaseAddress() + TRADE_STRATEGY_LOOP)
                 .addParams("uid", uid)
                 .addParams("straId", straId)
                 .execute(callback);
@@ -794,7 +794,7 @@ public class HttpRequestUtils {
     public static <T> void tradeRecords(Context context, String uid, String orderType, String symbol, String startDate, String endDate, int pageNo, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .get()
-                .url(TRADE_RECORDS)
+                .url(getBaseAddress() + TRADE_RECORDS)
                 .addParams("uid", uid)
                 .addParams("orderType", orderType)
                 .addParams("symbol", symbol)
@@ -821,7 +821,7 @@ public class HttpRequestUtils {
     public static <T> void tradeIncomeSummary(Context context, String uid, String symbol, String incomeMonth, String incomeYear, int pageNo, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .get()
-                .url(TRADE_INCOME_SUMMARY)
+                .url(getBaseAddress() + TRADE_INCOME_SUMMARY)
                 .addParams("uid", uid)
                 .addParams("symbol", symbol)
                 .addParams("incomeDate", 0)
@@ -844,7 +844,7 @@ public class HttpRequestUtils {
     public static <T> void tradeIncomeRecords(Context context, String uid, String symbol, String incomeDate, int pageNo, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .get()
-                .url(TRADE_INCOME_RECORDS)
+                .url(getBaseAddress() + TRADE_INCOME_RECORDS)
                 .addParams("uid", uid)
                 .addParams("symbol", symbol)
                 .addParams("incomeDate", incomeDate)
@@ -866,7 +866,7 @@ public class HttpRequestUtils {
     public static <T> void commSummarys(Context context, String uid, String commDate, String commMonth, String commYear, int pageNo, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .get()
-                .url(COMM_SUMMARYS)
+                .url(getBaseAddress() + COMM_SUMMARYS)
                 .addParams("uid", uid)
                 .addParams("commDate", commDate)
                 .addParams("commMonth", commMonth)
@@ -888,7 +888,7 @@ public class HttpRequestUtils {
     public static <T> void commRecords(Context context, String uid, String symbol, String commDate, int pageNo, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .get()
-                .url(COMM_RECORDS)
+                .url(getBaseAddress() + COMM_RECORDS)
                 .addParams("uid", uid)
                 .addParams("symbol", symbol)
                 .addParams("commDate", commDate)
@@ -909,7 +909,7 @@ public class HttpRequestUtils {
     public static <T> void accAccounts(Context context, String uid, String subjectId, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .get()
-                .url(ACC_ACCOUNTS)
+                .url(getBaseAddress() + ACC_ACCOUNTS)
                 .addParams("uid", uid)
                 .addParams("subjectId", subjectId)
                 .execute(callback);
@@ -926,7 +926,7 @@ public class HttpRequestUtils {
     public static <T> void accTrc20Usdt(Context context, String uid, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .get()
-                .url(ACC_TRC20_USDT)
+                .url(getBaseAddress() + ACC_TRC20_USDT)
                 .addParams("uid", uid)
                 .execute(callback);
     }
@@ -942,7 +942,7 @@ public class HttpRequestUtils {
     public static <T> void accTrx(Context context, String uid, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .get()
-                .url(ACC_TRX)
+                .url(getBaseAddress() + ACC_TRX)
                 .addParams("uid", uid)
                 .execute(callback);
     }
@@ -958,7 +958,7 @@ public class HttpRequestUtils {
     public static <T> void reserveApiList(Context context, String uid, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .get()
-                .url(EXCH_AUTHZS)
+                .url(getBaseAddress() + EXCH_AUTHZS)
                 .addParams("uid", uid)
                 .execute(callback);
     }
@@ -977,7 +977,7 @@ public class HttpRequestUtils {
     public static <T> void commTransfer(Context context, String uid, String targetUsername, String tansferAmount, String paypass, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .post()
-                .url(COMM_TRANSFER)
+                .url(getBaseAddress() + COMM_TRANSFER)
                 .addParams("uid", uid)
                 .addParams("targetUsername", targetUsername)
                 .addParams("tansferAmount", tansferAmount)
@@ -997,7 +997,7 @@ public class HttpRequestUtils {
     public static <T> void commTransform(Context context, String uid, int transformType, String transformAmount, String paypass, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .post()
-                .url(COMM_TRANSFORM)
+                .url(getBaseAddress() + COMM_TRANSFORM)
                 .addParams("uid", uid)
                 .addParams("transformType", transformType)
                 .addParams("transformAmount", transformAmount)
@@ -1018,7 +1018,7 @@ public class HttpRequestUtils {
     public static <T> void lcRecharge(Context context, String uid, String rechargeAmount, String paypass, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .post()
-                .url(LC_RECHARGE)
+                .url(getBaseAddress() + LC_RECHARGE)
                 .addParams("uid", uid)
                 .addParams("rechargeAmount", rechargeAmount)
                 .addParams("paypass", paypass)
@@ -1036,7 +1036,7 @@ public class HttpRequestUtils {
     public static <T> void usdtWithdrawFees(Context context, String uid, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .get()
-                .url(USDT_WITHDRAW_FEES)
+                .url(getBaseAddress() + USDT_WITHDRAW_FEES)
                 .addParams("uid", uid)
                 .execute(callback);
     }
@@ -1055,7 +1055,7 @@ public class HttpRequestUtils {
     public static <T> void usdtWithdraw(Context context, String uid, String targetAddress, String withdrawAmount, String paypass, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .post()
-                .url(USDT_WITHDRAW)
+                .url(getBaseAddress() + USDT_WITHDRAW)
                 .addParams("uid", uid)
                 .addParams("targetAddress", targetAddress)
                 .addParams("withdrawAmount", withdrawAmount)
@@ -1077,7 +1077,7 @@ public class HttpRequestUtils {
     public static <T> void tradeLoopwayChange(Context context, String uid, String straId, int fromLoopWay, int toLoopWay, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .post()
-                .url(TRADE_LOOPWAY_CHANGE)
+                .url(getBaseAddress() + TRADE_LOOPWAY_CHANGE)
                 .addParams("uid", uid)
                 .addParams("straId", straId)
                 .addParams("fromLoopWay", fromLoopWay)
@@ -1097,7 +1097,7 @@ public class HttpRequestUtils {
     public static <T> void tradeLoopwayChange(Context context, String uid, int toLoopWay, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .post()
-                .url(TRADE_LOOPWAY_CHANGE)
+                .url(getBaseAddress() + TRADE_LOOPWAY_CHANGE)
                 .addParams("uid", uid)
                 .addParams("toLoopWay", toLoopWay)
                 .execute(callback);
@@ -1115,7 +1115,7 @@ public class HttpRequestUtils {
     public static <T> void tradeLoopwayChange(Context context, String uid, int fromLoopWay, int toLoopWay, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .post()
-                .url(TRADE_LOOPWAY_CHANGE)
+                .url(getBaseAddress() + TRADE_LOOPWAY_CHANGE)
                 .addParams("uid", uid)
                 .addParams("fromLoopWay", fromLoopWay)
                 .addParams("toLoopWay", toLoopWay)
@@ -1133,7 +1133,7 @@ public class HttpRequestUtils {
     public static <T> void accTrc20UsdtSync(Context context, String uid, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .post()
-                .url(ACC_TRC20_USDT_SYNC)
+                .url(getBaseAddress() + ACC_TRC20_USDT_SYNC)
                 .addParams("uid", uid)
                 .execute(callback);
     }
@@ -1149,7 +1149,7 @@ public class HttpRequestUtils {
     public static <T> void tradeLogs(Context context, String uid, String startDate, String endDate, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .get()
-                .url(TRADE_LOGS)
+                .url(getBaseAddress() + TRADE_LOGS)
                 .addParams("uid", uid)
 //                .addParams("startDate", 0)
 //                .addParams("endDate", 0)
@@ -1171,7 +1171,7 @@ public class HttpRequestUtils {
     public static <T> void accountFlows(Context context, String uid, String subjectId, String chgCate, String chgMonth, int pageNo, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .get()
-                .url(ACCOUNT_FLOWS)
+                .url(getBaseAddress() + ACCOUNT_FLOWS)
                 .addParams("uid", uid)
                 .addParams("subjectId", subjectId)
                 .addParams("chgCate", chgCate)
@@ -1193,7 +1193,7 @@ public class HttpRequestUtils {
     public static <T> void accountFlowCates(Context context, String uid, String subjectId, DefaultHttpCallback<T> callback) {
         HttpUtils.with(context)
                 .get()
-                .url(ACCOUNT_FLOW_CATES)
+                .url(getBaseAddress() + ACCOUNT_FLOW_CATES)
                 .addParams("uid", uid)
                 .addParams("subjectId", subjectId)
                 .execute(callback);
