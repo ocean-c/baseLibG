@@ -156,7 +156,7 @@ public class HttpRequestUtils {
     private static final String UPLOAD_FILE = "/log/logUpload.json";
 
     // 退出登录接口
-    private static final String LOGOUT = getBaseAddress() + "/logout";
+    private static final String LOGOUT = "/logout";
 
     //***************************************接口方法********************************************//
 
