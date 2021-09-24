@@ -5,7 +5,7 @@
     android:background="@color/color_111624"
     android:orientation="vertical">
 
-    <com.luck.luckcloud.baselibrary.view.recyclerView.pullToRefresh.PullToRefreshRecyclerView
+    <com.luck.gaia.baselibrary.view.recyclerView.pullToRefresh.PullToRefreshRecyclerView
         android:id="@+id/recycler_activity_base_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

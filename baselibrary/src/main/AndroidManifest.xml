@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.luck.luckcloud.baselibrary">
+    package="com.luck.gaia.baselibrary">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
@@ -9,7 +9,7 @@
     <application>
         <!--配置Glide自定义缓存-->
         <meta-data
-            android:name="com.luck.luckcloud.baselibrary.image.glide.GlideCacheModule"
+            android:name="com.luck.gaia.baselibrary.image.glide.GlideCacheModule"
             android:value="GlideModule" />
     </application>
 </manifest>
